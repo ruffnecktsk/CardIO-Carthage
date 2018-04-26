@@ -292,6 +292,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -346,6 +347,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -373,6 +375,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/CardIO",
 				);
+				MODULEMAP_FILE = CardIO/module.modulemap;
 				OTHER_LDFLAGS = "-lc++";
 				PRODUCT_BUNDLE_IDENTIFIER = com.paypal.CardIO;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -402,6 +405,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/CardIO",
 				);
+				MODULEMAP_FILE = CardIO/module.modulemap;
 				OTHER_LDFLAGS = "-lc++";
 				PRODUCT_BUNDLE_IDENTIFIER = com.paypal.CardIO;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";

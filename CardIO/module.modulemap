@@ -2,9 +2,6 @@ framework module CardIO {
   umbrella header "CardIO.h"
   export *
   module * { export *}
-  link "CardIO"
-  link "opencv_core"
-  link "opencv_imgproc"
   link framework "UIKit"
   link framework "Security"
   link framework "QuartzCore"
